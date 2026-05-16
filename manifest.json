@@ -1,0 +1,22 @@
+{
+  "name": "Bonjour Zahara - 100 A1 French Phrases",
+  "short_name": "100 French",
+  "description": "100 two-word beginner A1 French phrases with flashcards, audio and quiz.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#FFFDF5",
+  "theme_color": "#F7C948",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
