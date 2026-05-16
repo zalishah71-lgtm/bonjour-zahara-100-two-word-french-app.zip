@@ -1,7 +1,7 @@
 {
-  "name": "Bonjour Zahara - 100 A1 French Phrases",
-  "short_name": "100 French",
-  "description": "100 two-word beginner A1 French phrases with flashcards, audio and quiz.",
+  "name": "Bonjour Zahara - Everyday French A1",
+  "short_name": "Everyday French",
+  "description": "100 everyday beginner French phrases used in daily life in France.",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#FFFDF5",

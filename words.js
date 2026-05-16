@@ -3,600 +3,600 @@ const WORDS = [
     "Bonjour Madame",
     "Hello Madam",
     "bon-zhoor mah-dam",
-    "Polite"
+    "1 Polite"
   ],
   [
     "Bonjour Monsieur",
     "Hello Sir",
     "bon-zhoor muh-syuh",
-    "Polite"
+    "1 Polite"
   ],
   [
     "Bonsoir Madame",
     "Good evening Madam",
     "bon-swahr mah-dam",
-    "Polite"
+    "1 Polite"
   ],
   [
     "Bonsoir Monsieur",
     "Good evening Sir",
     "bon-swahr muh-syuh",
-    "Polite"
+    "1 Polite"
   ],
   [
     "Merci beaucoup",
     "Thank you very much",
     "mehr-see bo-koo",
-    "Polite"
+    "1 Polite"
+  ],
+  [
+    "Merci bien",
+    "Thank you kindly",
+    "mehr-see byan",
+    "1 Polite"
   ],
   [
     "Non merci",
     "No thank you",
     "nohn mehr-see",
-    "Polite"
+    "1 Polite"
   ],
   [
     "Oui merci",
     "Yes thank you",
     "wee mehr-see",
-    "Polite"
-  ],
-  [
-    "Très bien",
-    "Very good",
-    "tray byan",
-    "Polite"
-  ],
-  [
-    "À bientôt",
-    "See you soon",
-    "ah byan-toh",
-    "Polite"
+    "1 Polite"
   ],
   [
     "Bonne journée",
     "Have a good day",
     "bun zhoor-nay",
-    "Polite"
+    "1 Polite"
   ],
   [
     "Bonne soirée",
     "Have a good evening",
     "bun swah-ray",
-    "Polite"
-  ],
-  [
-    "Bonne nuit",
-    "Good night",
-    "bun nwee",
-    "Polite"
-  ],
-  [
-    "Excusez-moi",
-    "Excuse me",
-    "ex-koo-zay mwah",
-    "Polite"
-  ],
-  [
-    "Pardon Madame",
-    "Sorry Madam",
-    "par-don mah-dam",
-    "Polite"
-  ],
-  [
-    "Avec plaisir",
-    "With pleasure",
-    "ah-vek play-zeer",
-    "Polite"
+    "1 Polite"
   ],
   [
     "Un café",
     "A coffee",
     "un kah-fay",
-    "Café"
+    "2 Café"
   ],
   [
     "Un thé",
     "A tea",
     "un tay",
-    "Café"
+    "2 Café"
   ],
   [
-    "Un croissant",
-    "A croissant",
-    "un krwah-son",
-    "Bakery"
-  ],
-  [
-    "Une baguette",
-    "A baguette",
-    "une bah-get",
-    "Bakery"
-  ],
-  [
-    "Du pain",
-    "Some bread",
-    "dew pan",
-    "Bakery"
+    "Un verre",
+    "A glass",
+    "un vair",
+    "2 Café"
   ],
   [
     "De l’eau",
     "Some water",
     "duh low",
-    "Café"
+    "2 Café"
+  ],
+  [
+    "Une baguette",
+    "A baguette",
+    "une bah-get",
+    "2 Café"
+  ],
+  [
+    "Un croissant",
+    "A croissant",
+    "un krwah-son",
+    "2 Café"
+  ],
+  [
+    "Du pain",
+    "Some bread",
+    "dew pan",
+    "2 Café"
   ],
   [
     "Sans sucre",
     "Without sugar",
     "son sew-kruh",
-    "Café"
+    "2 Café"
   ],
   [
     "Avec lait",
     "With milk",
     "ah-vek lay",
-    "Café"
-  ],
-  [
-    "Sans lait",
-    "Without milk",
-    "son lay",
-    "Café"
-  ],
-  [
-    "Très chaud",
-    "Very hot",
-    "tray show",
-    "Café"
-  ],
-  [
-    "Pas chaud",
-    "Not hot",
-    "pah show",
-    "Café"
-  ],
-  [
-    "Une table",
-    "A table",
-    "une tahbl",
-    "Café"
-  ],
-  [
-    "La carte",
-    "The menu",
-    "lah kart",
-    "Café"
+    "2 Café"
   ],
   [
     "L’addition",
     "The bill",
     "lah-dee-see-on",
-    "Café"
+    "2 Café"
   ],
   [
     "Un sac",
     "A bag",
     "un sak",
-    "Shopping"
+    "3 Shopping"
+  ],
+  [
+    "Un panier",
+    "A basket",
+    "un pah-nyay",
+    "3 Shopping"
+  ],
+  [
+    "Un chariot",
+    "A trolley",
+    "un shah-ree-oh",
+    "3 Shopping"
   ],
   [
     "Un reçu",
     "A receipt",
     "un ruh-sew",
-    "Shopping"
+    "3 Shopping"
   ],
   [
     "Par carte",
     "By card",
     "par kart",
-    "Shopping"
+    "3 Shopping"
   ],
   [
     "En espèces",
     "In cash",
     "on es-pess",
-    "Shopping"
+    "3 Shopping"
   ],
   [
     "C’est combien",
     "How much is it",
     "say kom-by-an",
-    "Shopping"
+    "3 Shopping"
+  ],
+  [
+    "Je prends",
+    "I’ll take it",
+    "zhuh pron",
+    "3 Shopping"
   ],
   [
     "Trop cher",
     "Too expensive",
     "troh shair",
-    "Shopping"
+    "3 Shopping"
   ],
   [
-    "Pas cher",
-    "Not expensive",
-    "pah shair",
-    "Shopping"
-  ],
-  [
-    "C’est bon",
-    "It is good",
-    "say bon",
-    "Shopping"
-  ],
-  [
-    "C’est parfait",
-    "It is perfect",
-    "say par-fay",
-    "Shopping"
-  ],
-  [
-    "Je prends",
-    "I’ll take",
-    "zhuh pron",
-    "Shopping"
-  ],
-  [
-    "Je voudrais",
-    "I would like",
-    "zhuh voo-dray",
-    "Shopping"
+    "C’est tout",
+    "That is all",
+    "say too",
+    "3 Shopping"
   ],
   [
     "Où est",
     "Where is",
     "oo ay",
-    "Directions"
+    "4 Directions"
   ],
   [
     "C’est où",
     "Where is it",
     "say oo",
-    "Directions"
+    "4 Directions"
   ],
   [
     "Par ici",
     "This way",
     "par ee-see",
-    "Directions"
+    "4 Directions"
   ],
   [
     "Par là",
     "That way",
     "par lah",
-    "Directions"
+    "4 Directions"
   ],
   [
     "À gauche",
     "To the left",
     "ah gosh",
-    "Directions"
+    "4 Directions"
   ],
   [
     "À droite",
     "To the right",
     "ah drwat",
-    "Directions"
+    "4 Directions"
   ],
   [
     "Tout droit",
     "Straight ahead",
     "too drwah",
-    "Directions"
-  ],
-  [
-    "Très loin",
-    "Very far",
-    "tray lwan",
-    "Directions"
+    "4 Directions"
   ],
   [
     "Pas loin",
     "Not far",
     "pah lwan",
-    "Directions"
+    "4 Directions"
+  ],
+  [
+    "Très loin",
+    "Very far",
+    "tray lwan",
+    "4 Directions"
   ],
   [
     "Près d’ici",
     "Near here",
     "preh dee-see",
-    "Directions"
+    "4 Directions"
   ],
   [
-    "Au village",
-    "In/to the village",
-    "oh vee-lazh",
-    "Directions"
-  ],
-  [
-    "Au marché",
-    "To the market",
-    "oh mar-shay",
-    "Directions"
-  ],
-  [
-    "À Nice",
-    "To Nice",
-    "ah nees",
-    "Directions"
-  ],
-  [
-    "À Grasse",
-    "To Grasse",
-    "ah grass",
-    "Directions"
-  ],
-  [
-    "Chez moi",
-    "At my place",
-    "shay mwah",
-    "Home"
-  ],
-  [
-    "Chez vous",
-    "At your place",
-    "shay voo",
-    "Home"
-  ],
-  [
-    "Rendez-vous",
-    "Appointment",
-    "ron-day-voo",
-    "Appointment"
-  ],
-  [
-    "Demain matin",
-    "Tomorrow morning",
-    "duh-man mah-tan",
-    "Appointment"
-  ],
-  [
-    "Demain soir",
-    "Tomorrow evening",
-    "duh-man swahr",
-    "Appointment"
-  ],
-  [
-    "Cet après-midi",
-    "This afternoon",
-    "set ah-preh mee-dee",
-    "Appointment"
-  ],
-  [
-    "Aujourd’hui",
-    "Today",
-    "oh-zhoor-dwee",
-    "Appointment"
-  ],
-  [
-    "C’est urgent",
-    "It is urgent",
-    "say zur-zhon",
-    "Doctor"
-  ],
-  [
-    "J’ai mal",
-    "I have pain",
-    "zhay mal",
-    "Doctor"
-  ],
-  [
-    "Mal ici",
-    "Pain here",
-    "mal ee-see",
-    "Doctor"
-  ],
-  [
-    "Très fatiguée",
-    "Very tired",
-    "tray fah-tee-gay",
-    "Doctor"
-  ],
-  [
-    "Pas bien",
-    "Not well",
-    "pah byan",
-    "Doctor"
+    "La boulangerie",
+    "The bakery",
+    "lah boo-lon-zhuh-ree",
+    "5 Places"
   ],
   [
     "La pharmacie",
     "The pharmacy",
     "lah far-mah-see",
-    "Pharmacy"
+    "5 Places"
   ],
   [
-    "Le médecin",
-    "The doctor",
-    "luh med-san",
-    "Doctor"
+    "Le marché",
+    "The market",
+    "luh mar-shay",
+    "5 Places"
   ],
   [
-    "Une ordonnance",
-    "A prescription",
-    "une or-doh-nons",
-    "Doctor"
+    "Le supermarché",
+    "The supermarket",
+    "luh sew-pair-mar-shay",
+    "5 Places"
   ],
   [
-    "Mes médicaments",
-    "My medication",
-    "may may-dee-kah-mon",
-    "Doctor"
+    "Le café",
+    "The café",
+    "luh kah-fay",
+    "5 Places"
   ],
   [
-    "Je rappelle",
-    "I will call back",
-    "zhuh rah-pell",
-    "Phone"
+    "Le restaurant",
+    "The restaurant",
+    "luh res-toh-ron",
+    "5 Places"
+  ],
+  [
+    "La mairie",
+    "The town hall",
+    "lah may-ree",
+    "5 Places"
+  ],
+  [
+    "La poste",
+    "The post office",
+    "lah post",
+    "5 Places"
+  ],
+  [
+    "La banque",
+    "The bank",
+    "lah bonk",
+    "5 Places"
+  ],
+  [
+    "La maison",
+    "The house",
+    "lah may-zon",
+    "5 Places"
+  ],
+  [
+    "Un rendez-vous",
+    "An appointment",
+    "un ron-day-voo",
+    "6 Appointment"
+  ],
+  [
+    "Demain matin",
+    "Tomorrow morning",
+    "duh-man mah-tan",
+    "6 Appointment"
+  ],
+  [
+    "Demain soir",
+    "Tomorrow evening",
+    "duh-man swahr",
+    "6 Appointment"
+  ],
+  [
+    "Cet après-midi",
+    "This afternoon",
+    "set ah-preh mee-dee",
+    "6 Appointment"
+  ],
+  [
+    "Ce soir",
+    "Tonight",
+    "suh swahr",
+    "6 Appointment"
   ],
   [
     "Plus tard",
     "Later",
     "ploo tar",
-    "Phone"
+    "6 Appointment"
   ],
   [
     "Un moment",
     "One moment",
     "un mo-mon",
-    "Phone"
+    "6 Appointment"
   ],
   [
-    "Je comprends",
-    "I understand",
-    "zhuh kom-pron",
-    "Phone"
+    "Je rappelle",
+    "I’ll call back",
+    "zhuh rah-pell",
+    "6 Appointment"
   ],
   [
-    "Je répète",
-    "I repeat",
-    "zhuh ray-pet",
-    "Phone"
+    "Je confirme",
+    "I confirm",
+    "zhuh kon-feerm",
+    "6 Appointment"
   ],
   [
-    "Parlez lentement",
-    "Speak slowly",
-    "par-lay lon-tuh-mon",
-    "Phone"
+    "C’est urgent",
+    "It is urgent",
+    "say zur-zhon",
+    "6 Appointment"
   ],
   [
-    "Mon fils",
-    "My son",
-    "mon fees",
-    "Family"
+    "J’ai mal",
+    "I have pain",
+    "zhay mal",
+    "7 Health"
   ],
   [
-    "Mon mari",
-    "My husband",
-    "mon mah-ree",
-    "Family"
+    "Mal ici",
+    "Pain here",
+    "mal ee-see",
+    "7 Health"
   ],
   [
-    "Mon partenaire",
-    "My partner",
-    "mon par-tuh-nair",
-    "Family"
+    "Pas bien",
+    "Not well",
+    "pah byan",
+    "7 Health"
   ],
   [
-    "Ma maison",
-    "My house",
-    "mah may-zon",
-    "Home"
+    "Très fatiguée",
+    "Very tired",
+    "tray fah-tee-gay",
+    "7 Health"
   ],
   [
-    "Ma famille",
-    "My family",
-    "mah fah-mee",
-    "Family"
+    "Ça pique",
+    "It stings",
+    "sah peek",
+    "7 Health"
   ],
   [
-    "Mes voisins",
-    "My neighbours",
-    "may vwah-zan",
-    "Social"
+    "Ça brûle",
+    "It burns",
+    "sah brool",
+    "7 Health"
   ],
   [
-    "Je suis",
-    "I am",
-    "zhuh swee",
-    "Identity"
+    "Une ordonnance",
+    "A prescription",
+    "une or-doh-nons",
+    "7 Health"
   ],
   [
-    "Je viens",
-    "I come",
-    "zhuh vee-an",
-    "Identity"
+    "Mes médicaments",
+    "My medication",
+    "may may-dee-kah-mon",
+    "7 Health"
   ],
   [
-    "J’habite ici",
-    "I live here",
-    "zha-beet ee-see",
-    "Identity"
+    "Le médecin",
+    "The doctor",
+    "luh med-san",
+    "7 Health"
   ],
   [
-    "Australie",
-    "Australia",
-    "oh-strah-lee",
-    "Identity"
+    "La douleur",
+    "The pain",
+    "lah doo-luhr",
+    "7 Health"
   ],
   [
-    "Iranienne",
-    "Iranian woman",
-    "ee-rah-nyen",
-    "Identity"
+    "Ça va",
+    "How are you / I’m okay",
+    "sah vah",
+    "8 Social"
   ],
   [
-    "En France",
-    "In France",
-    "on frons",
-    "Identity"
+    "Très bien",
+    "Very well",
+    "tray byan",
+    "8 Social"
   ],
   [
-    "Très contente",
-    "Very happy",
-    "tray kon-tont",
-    "Social"
-  ],
-  [
-    "Très heureuse",
-    "Very happy",
-    "tray uh-ruhz",
-    "Social"
-  ],
-  [
-    "C’est joli",
-    "It is pretty",
-    "say zho-lee",
-    "Social"
-  ],
-  [
-    "C’est magnifique",
-    "It is beautiful",
-    "say mah-nyee-feek",
-    "Social"
-  ],
-  [
-    "J’aime beaucoup",
-    "I like it a lot",
-    "zhem bo-koo",
-    "Social"
+    "Et vous",
+    "And you",
+    "ay voo",
+    "8 Social"
   ],
   [
     "Moi aussi",
     "Me too",
     "mwah oh-see",
-    "Social"
+    "8 Social"
   ],
   [
     "Pas encore",
     "Not yet",
     "pah zon-kor",
-    "Social"
+    "8 Social"
   ],
   [
     "Bien sûr",
     "Of course",
     "byan sewr",
-    "Social"
+    "8 Social"
+  ],
+  [
+    "Avec plaisir",
+    "With pleasure",
+    "ah-vek play-zeer",
+    "8 Social"
+  ],
+  [
+    "C’est gentil",
+    "That is kind",
+    "say zhon-tee",
+    "8 Social"
+  ],
+  [
+    "C’est joli",
+    "It is pretty",
+    "say zho-lee",
+    "8 Social"
+  ],
+  [
+    "À bientôt",
+    "See you soon",
+    "ah byan-toh",
+    "8 Social"
+  ],
+  [
+    "Mon fils",
+    "My son",
+    "mon fees",
+    "9 Family"
+  ],
+  [
+    "Mon mari",
+    "My husband",
+    "mon mah-ree",
+    "9 Family"
+  ],
+  [
+    "Mon partenaire",
+    "My partner",
+    "mon par-tuh-nair",
+    "9 Family"
+  ],
+  [
+    "Ma maison",
+    "My house",
+    "mah may-zon",
+    "9 Family"
+  ],
+  [
+    "Ma famille",
+    "My family",
+    "mah fah-mee",
+    "9 Family"
+  ],
+  [
+    "Mes voisins",
+    "My neighbours",
+    "may vwah-zan",
+    "9 Family"
+  ],
+  [
+    "Chez moi",
+    "At my place",
+    "shay mwah",
+    "9 Family"
+  ],
+  [
+    "Chez vous",
+    "At your place",
+    "shay voo",
+    "9 Family"
+  ],
+  [
+    "J’habite ici",
+    "I live here",
+    "zha-beet ee-see",
+    "9 Family"
+  ],
+  [
+    "Je viens",
+    "I come",
+    "zhuh vee-an",
+    "9 Family"
   ],
   [
     "Je veux",
     "I want",
     "zhuh vuh",
-    "Learning"
+    "10 Starters"
   ],
   [
     "Je dois",
     "I have to",
     "zhuh dwah",
-    "Learning"
+    "10 Starters"
   ],
   [
     "Je peux",
-    "I can",
+    "I can / Can I",
     "zhuh puh",
-    "Learning"
+    "10 Starters"
   ],
   [
     "Je vais",
     "I am going",
     "zhuh veh",
-    "Learning"
+    "10 Starters"
+  ],
+  [
+    "Je voudrais",
+    "I would like",
+    "zhuh voo-dray",
+    "10 Starters"
+  ],
+  [
+    "Je comprends",
+    "I understand",
+    "zhuh kom-pron",
+    "10 Starters"
+  ],
+  [
+    "Je pratique",
+    "I practise",
+    "zhuh prak-teek",
+    "10 Starters"
+  ],
+  [
+    "Vous voulez",
+    "Do you want",
+    "voo voo-lay",
+    "10 Starters"
+  ],
+  [
+    "Vous aimez",
+    "Do you like",
+    "voo zay-may",
+    "10 Starters"
+  ],
+  [
+    "Parlez lentement",
+    "Speak slowly",
+    "par-lay lon-tuh-mon",
+    "10 Starters"
   ]
 ];
